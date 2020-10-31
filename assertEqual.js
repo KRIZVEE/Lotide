@@ -12,3 +12,6 @@ assertEqual('Hello', 'Hello');
 assertEqual(786, 92);
 assertEqual('hello', 'HeLLo');
 assertEqual(786, 786);
+assertEqual(786, '786');
+
+module.exports = assertEqual;

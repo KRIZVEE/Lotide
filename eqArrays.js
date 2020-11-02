@@ -3,7 +3,7 @@ const eqArrays = function(arr1, arr2) {
   let result = true;
   
   if (arr1.length !== arr2.length) {
-    console.log('inside of IF BLOCK since both arrays are not equal in Length : ',arr1.length === arr2.length);
+    // console.log('inside of IF BLOCK since both arrays are not equal in Length : ',arr1.length === arr2.length);
     return false;
   }
 

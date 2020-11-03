@@ -1,5 +1,8 @@
-// const eqObjects = require("./eqObjects")
+const eqObjects = require("./eqObjects")
 
+// console.log('eqObjects : ',eqObjects);
+
+/*
 const eqObjects = function(obj1, obj2) {
   let res = true;
 
@@ -46,7 +49,7 @@ const eqObjects = function(obj1, obj2) {
   }
   console.log('Value of res is : ',res);
   return res;
-};
+};*/
 
 const isObject = function(ele) {
   return (typeof ele === "object") && (!Array.isArray(ele));

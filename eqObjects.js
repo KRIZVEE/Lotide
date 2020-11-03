@@ -18,14 +18,12 @@ const eqObjects = function(obj1, obj2) {
 
   // condition checking if both objects are having same number of keys
   if (keysOfObj1.length !== keysOfObj2.length) {
-    console.log('on line no 21');
     res = false;
     return false;
   }
   // condition checking kvp of obj1 is exactly same as kvp of obj2
   for (let key1 of keysOfObj1) {
     if (!keysOfObj2.includes(key1)) {
-      console.log('on line no 28');
       res = false;
       return false;
     }

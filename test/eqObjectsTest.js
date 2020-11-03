@@ -36,9 +36,9 @@ const z = {a: {a:123, b:456},b:'bool',z:'z'};
 assertEqual(eqObjects(x,y), true);
 assertEqual(eqObjects(x,z), false);
 
-console.log(' Test Cases for Object and Array as values ');
-const j = { a: "1", b: "undefined", c: [1, 2, 3, { q: 2, t: 3, p: 4 }, 'bool', true, { a: undefined }] };
-const k = { a: "1", b: "undefined", c: [1, 2, 3, { q: 2, t: 3, p: 4 }, 'bool', true, { a: undefined }] };
-const l = { a: "1", b: "undefined", c: [1, 2, 3, { q: 2, t: 3, p: '4' }, 'bool', true, { a: undefined }] };
-assertEqual(eqObjects(j,k), true);
-assertEqual(eqObjects(j,l), false);
+// console.log(' Test Cases for Object and Array as values ');
+// const j = { a: "1", b: "undefined", c: [1, 2, 3, { q: 2, t: 3, p: 4 }, 'bool', true, { a: undefined }] };
+// const k = { a: "1", b: "undefined", c: [1, 2, 3, { q: 2, t: 3, p: 4 }, 'bool', true, { a: undefined }] };
+// const l = { a: "1", b: "undefined", c: [1, 2, 3, { q: 2, t: 3, p: '4' }, 'bool', true, { a: undefined }] };
+// assertEqual(eqObjects(j,k), true);
+// assertEqual(eqObjects(j,l), false);
